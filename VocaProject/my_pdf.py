@@ -8,7 +8,7 @@ class PDF(FPDF):
             width = self.get_string_width(self.title) + 6
             self.set_x((210 - width) / 2)
             self.cell(width, 10, self.title, new_x="LMARGIN", new_y="NEXT", align="C")
-            self.ln(10)
+            self.ln(8)
 
     def footer(self):
         self.set_y(-15)
@@ -39,4 +39,4 @@ class PDF(FPDF):
             synon=synon)
 
         self.write(txt=txt, print_sh=True)
-        self.ln(12)
+        self.ln(10)

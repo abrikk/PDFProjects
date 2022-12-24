@@ -15,4 +15,3 @@ for row in df.iterrows():
 
 
 pdf.output("voca-doka.pdf")
-
