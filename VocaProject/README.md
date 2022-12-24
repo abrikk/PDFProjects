@@ -17,3 +17,4 @@ Having filled data, save the Excel file naming it ```voca.xlsx```. Then paste th
 ## The last step
 The final step is to run the python file ```main.py```, after which a PDF file will occur in the folder
 
+![img_1.png](img_1.png)
